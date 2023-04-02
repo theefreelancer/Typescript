@@ -1,0 +1,49 @@
+let counter; 
+let counter = 0;
+let counter: number;
+let counter: number = 0;
+
+//Basic types & Operators
+
+let isPaid: boolean = true;
+
+let price: number = 200;
+
+let name: string = "Arsenal"
+
+let list: number[] = [1, 2, 3]
+
+let list: Array<number> = [1, 2, 3]
+
+let x: [string, number];
+x = ["Name", 10]
+x = ["Age", 20]
+
+enum Color {Red, Blue, Green}
+let c: Color = Color.Red;
+
+let notSure: any = 4;
+notSure = "maybe he is home"
+notSure = false;
+
+let list: any[] = [1, "free", false]
+list[1] = 100;
+
+//Primitive types include
+boolean, string, number, symbol, null, undefined
+
+function impossibleGuard(value: any){
+  if(
+    typeof value === "string" &&
+    typeof value === "number"
+  ){
+    value;  //type never
+  }
+}
+
+function loginMessage(): void{
+  console.log("Welcome to our user portal!");
+}// void may act on functions without a return value
+
+
+

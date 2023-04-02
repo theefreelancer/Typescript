@@ -1,0 +1,23 @@
+//single-selection structure(if)
+let isValid: boolean = true;
+if(isValid){
+  console.log("The answer is valid");
+}
+
+//double-selection structure( if...else)
+let isValid: boolean = true;
+
+if(isValid){
+  console.log("yes, we are valid")
+}else{
+  console.log("oops, we are not yet valid!")
+}
+
+//inline ternary operator(?)
+let isValid: boolean = true;
+let message = isValid ? "Is valid" : "Is NOT Valid";
+console.log(message);
+
+//multiple-selection structure (switch)
+// Switch statements are used together with the enumerations to improve the readability of code
+

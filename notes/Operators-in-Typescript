@@ -1,0 +1,50 @@
+//Arithmetic Operators
+A + B;
+A - B;
+A * B;
+A ** B;
+B % A;
+B / A;
+A--;
+A++;
+
+//Comparison Operators
+A == B;
+A === B;
+A != B;
+A !== B;
+A > B;
+A < B;
+A >= B;
+A <= B;
+
+//Logical Operators
+   A && B;
+   A || B;
+ !(A && B);
+
+ //Bitwise Operators
+ A & B;
+ A | B;
+ A ^ B;
+ ~ B
+ A << 1
+ A >> 1
+ A >>> 1
+ // Bitwise operators are not so commonly used in Javascript as compared to languages such as java etc. 
+
+// Assignment operators
+C = A + B;
+C += A;
+C -= A;
+C *= A;
+C /= A;
+C %= A;
+
+// Spread operator
+//These can be used to initialize arrays and objects from another array or object
+let originalArr1 = [1, 2, 3];
+let copyArr = [...originalArr1];
+
+let originalObj = {a: 1, b: 2, c: 3};
+let copyObj = {...originalObj};
