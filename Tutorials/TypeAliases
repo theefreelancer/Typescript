@@ -1,0 +1,17 @@
+type User = {
+        readonly _id: string
+        name: string
+        email: string
+        isActive: boolean
+        credcardDetails?: number
+}
+
+let myUser: User ={
+        _id: "1003",
+        name: "Nattabi",
+        email: "n@n.com",
+        isActive: false,
+        credcardDetails: 283730383
+} 
+
+myUser.name = "Mugabi Seaman"
