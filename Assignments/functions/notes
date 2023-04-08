@@ -1,0 +1,14 @@
+//These are the different notes of other not so frequently used functions 
+Number.toLocaleString()
+
+Number.toPrecision()
+
+Number.toFixed()
+var num = 23.35
+console.log(num.toFixed()) // This truncates the number to 23
+
+console.log(num.toFixed(1))// This truncates the number to 23.1
+
+console.log(num.toPrecision(3))// This truncates the number to 23.3
+
+console.log(num.toLocaleString()) // This converts the number to English, in somecase it can apply the commas as well.
