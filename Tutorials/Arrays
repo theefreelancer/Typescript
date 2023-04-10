@@ -1,0 +1,12 @@
+const cars: string[] = [];
+const carNumberPlate: Array<string> = [];
+
+//Using types and Arrays
+type Car = {
+        name: string
+        isActive?: boolean
+}
+
+const allUsers: Car[] = [];
+
+allUsers.push({name: "kibbe", isActive: true})
