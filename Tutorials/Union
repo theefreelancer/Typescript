@@ -1,0 +1,25 @@
+let phoneCalls : string | number = 22;
+
+phoneCalls = "Audio-recording";
+
+//phoneCalls = true;
+
+// unions with types
+type UniPopulation = {
+        id: number;
+        uiName: string;
+        uiRole: string;
+}
+type UniStudent = {
+        stdId: number;
+        uiName: string;
+}
+
+let univers: UniPopulation | Unistudent = {
+        stdId: 1800723401,
+        uiName: "Ronald G Ssebalamu"
+}
+
+uivers = {
+        id: 1800723401
+}
