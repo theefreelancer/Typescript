@@ -1,0 +1,6 @@
+enum Panel{
+        name = "USER",
+        title,
+        date,
+}
+const panel = Panel.date;
