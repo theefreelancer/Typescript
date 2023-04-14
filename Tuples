@@ -1,0 +1,25 @@
+let user: [number, string, boolean] = [2, "ronald", true];
+
+//Under typescript, we aim at creating types that are strict, for purposes of helping us 
+// reduce the number of errors during the transpiling into javascript as well as compiling.
+
+// We therefore apply all the methods that may apply to arrays, since for some reason tupples are arrays 
+// in one way or the other.
+
+user.push("stratUniversity");
+
+let user: readonly [number, string, boolean] = [2, "ssebalamu", false];
+
+
+
+//if the types are similar and the tuples are not named, then we can always use arrays, for purposes 
+// of modification and the manipulation.
+
+let user = ["start", "rest", "finish"]
+
+//Destructuring tuples
+
+let car: [string, string] = ["mazda", "ferrari"];
+
+let [x, y] = car;
+
